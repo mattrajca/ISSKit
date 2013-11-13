@@ -95,7 +95,7 @@
 		C925FD821833FE7800BD6888 /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Util.h; path = SGP4/libsgp4/Util.h; sourceTree = SOURCE_ROOT; };
 		C925FD831833FE7800BD6888 /* Vector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Vector.cpp; path = SGP4/libsgp4/Vector.cpp; sourceTree = SOURCE_ROOT; };
 		C925FD841833FE7800BD6888 /* Vector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Vector.h; path = SGP4/libsgp4/Vector.h; sourceTree = SOURCE_ROOT; };
-		C96C9C2A182C644C0037292B /* libISSKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libISSKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C96C9C2A182C644C0037292B /* ISSKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = ISSKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C96C9C2D182C644C0037292B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C96C9C31182C644C0037292B /* ISSKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ISSKit-Prefix.pch"; sourceTree = "<group>"; };
 		C96C9C3A182C644C0037292B /* ISSKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ISSKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -176,7 +176,7 @@
 		C96C9C2B182C644C0037292B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C96C9C2A182C644C0037292B /* libISSKit.a */,
+				C96C9C2A182C644C0037292B /* ISSKit.a */,
 				C96C9C3A182C644C0037292B /* ISSKitTests.xctest */,
 			);
 			name = Products;
@@ -244,7 +244,7 @@
 			);
 			name = ISSKit;
 			productName = ISSKit;
-			productReference = C96C9C2A182C644C0037292B /* libISSKit.a */;
+			productReference = C96C9C2A182C644C0037292B /* ISSKit.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		C96C9C39182C644C0037292B /* ISSKitTests */ = {
@@ -431,6 +431,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DSTROOT = /tmp/ISSKit.dst;
+				EXECUTABLE_PREFIX = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ISSKit/ISSKit-Prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
@@ -444,6 +445,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DSTROOT = /tmp/ISSKit.dst;
+				EXECUTABLE_PREFIX = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ISSKit/ISSKit-Prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
