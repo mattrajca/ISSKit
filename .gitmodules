@@ -1,0 +1,3 @@
+[submodule "SGP4"]
+	path = SGP4
+	url = git://github.com/mattrajca/SGP4.git
