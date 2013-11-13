@@ -1,4 +1,4 @@
 ISSKit
 ======
 
-Cocoa framework for tracking the International Space Station
+iOS static library for tracking the International Space Station.
